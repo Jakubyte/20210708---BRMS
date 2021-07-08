@@ -7,6 +7,7 @@
 #include <iostream>
 
 #include "../include/AccountHolder.hpp"
+#include "../include/StringValidation.hpp"
 
 int main(int argc, char **argv)
 {
@@ -16,7 +17,7 @@ int main(int argc, char **argv)
     //
     // }
 
-    jakubyte::AccountHolder ac("Jakub", "Byte", 21, "19/12/2012");
+    jakubyte::AccountHolder ac("Jakub", "Byte", 21, "31/12/9999");
     std::cout << ac << std::endl;
 
     return 0;

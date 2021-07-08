@@ -27,6 +27,9 @@ namespace jakubyte
         const char *m_str_dob;
         unsigned int m_age;
         UIDate m_ui_dob;
+
+        UIDate parseDate(const char *, unsigned int, unsigned int, unsigned int, unsigned int);
+        void validateDate(const char *);
     }; // class AccountHolder
 
 } // namespace jakubyte
