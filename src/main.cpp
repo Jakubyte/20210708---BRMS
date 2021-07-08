@@ -6,9 +6,18 @@
 
 #include <iostream>
 
-int main()
+#include "../include/AccountHolder.hpp"
+
+int main(int argc, char **argv)
 {
-    std::cout << "Hello world" << std::endl;
+    // TODO: implement addition args
+    // if (argc > 1)
+    // {
+    //
+    // }
+
+    jakubyte::AccountHolder ac("Jakub", "Byte", 21, "19/12/2012");
+    std::cout << ac << std::endl;
 
     return 0;
 }
